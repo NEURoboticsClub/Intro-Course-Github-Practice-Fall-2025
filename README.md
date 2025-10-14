@@ -1,19 +1,19 @@
 # Intro-Course-Github-Practice-Fall-2025
 Welcome to the NURobotics Intro to Robotics Course's practice repository! We'll be using this repo as practice to get familiar with git and GitHub. The following is a step-by-step instructional guide for making your first commit and push!
 
-## Purpose of a README file
-# AKA what even is this file you're reading right now?
+# Purpose of a README file
+## AKA what even is this file you're reading right now?
 It introduces and explains a project. Typically it's the first file you create in a project.
 
 Today's instructions will be in this(README) file.
 
 For more info: https://www.makeareadme.com/
 
-## Tutorial
-# Overview
+# Tutorial
+## Overview
 We've provided a txt file with a template of some info for you to fill out. In this tutorial, we'll be duplicating the template, renaming the file, filling it out, and eventually merging it with the main branch.
 
-# Git and GitHub
+## Git and GitHub
 What's the difference between these things? What even is "git"?
 
 Well, let's start with git. Git is a version control system (VCS). It's a way to track changes in code and is a key asset when working on a codebase with several developers. Think of it like the version history feature in Google Docs. You can see what the file looked like at different timestamps, see who made what changes, and even revert to old versions and restore changes.
@@ -28,7 +28,28 @@ TDLR - Git is the software that actually tracks code changes within a repository
 What is a repository? GitHub docs define it as:
 > A repository contains all of your project's files and each file's revision history. You can discuss and manage your project's work within the repository.
 
-Well, the first step in this tutorial was to access the repository on GitHub. If you're reading this now, chances are you're here! If not, go to https://github.com/NEURoboticsClub/Intro-Course-GitHub-practice.
+Well, the first step in this tutorial was to access the repository on GitHub. If you're reading this now, chances are you're here! If not, go to https://github.com/NEURoboticsClub/Intro-Course-Github-Practice-Fall-2025.
+
+## Opening the Command Line
+### On a Windows
+Click: the Start button or press the Windows key on your keyboard.
+Type: cmd or Command Prompt into the search bar.
+Select: "Command Prompt" from the search results to open it.
+
+### On a Mac
+Open Spotlight: Press the Command (⌘) key + Spacebar. 
+Type "Terminal": In the search bar that appears, type Terminal. 
+Launch Terminal: Press Enter or double-click on the Terminal application from the search results.
+
+## Cloning a Remote Repository
+### What is a remote repository?
+A remote URL is Git's fancy way of saying "the place where your code is stored." That URL could be your repository on GitHub, or another user's fork, or even on a completely different server.
+
+You can only push to two types of URL addresses:
+
+An HTTPS URL like '''https://github.com/user/repo.git
+An SSH URL, like '''git@github.com:user/repo.git
+Git associates a remote URL with a name, and your default remote is usually called '''origin.
 
 
 
