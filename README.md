@@ -46,10 +46,15 @@ Launch Terminal: Press Enter or double-click on the Terminal application from th
 A remote URL is Git's fancy way of saying "the place where your code is stored." That URL could be your repository on GitHub, or another user's fork, or even on a completely different server.
 
 You can only push to two types of URL addresses:
+You can only push to two types of URL addresses:
 
-An HTTPS URL like '''https://github.com/user/repo.git
-An SSH URL, like '''git@github.com:user/repo.git
-Git associates a remote URL with a name, and your default remote is usually called '''origin.
+For an HTTPS URL:
+\`https://github.com/user/repo.git\`
+
+For an SSH URL:
+\`git@github.com:user/repo.git\`
+
+Git associates a remote URL with a name, and your default remote is usually called \'origin\'.
 
 
 
