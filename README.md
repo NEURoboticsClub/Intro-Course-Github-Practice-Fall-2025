@@ -1,1 +1,34 @@
 # Intro-Course-Github-Practice-Fall-2025
+Welcome to the NURobotics Intro to Robotics Course's practice repository! We'll be using this repo as practice to get familiar with git and GitHub. The following is a step-by-step instructional guide for making your first commit and push!
+
+## Purpose of a README file
+# AKA what even is this file you're reading right now?
+It introduces and explains a project. Typically it's the first file you create in a project.
+
+Today's instructions will be in this(README) file.
+
+For more info: https://www.makeareadme.com/
+
+## Tutorial
+# Overview
+We've provided a txt file with a template of some info for you to fill out. In this tutorial, we'll be duplicating the template, renaming the file, filling it out, and eventually merging it with the main branch.
+
+# Git and GitHub
+What's the difference between these things? What even is "git"?
+
+Well, let's start with git. Git is a version control system (VCS). It's a way to track changes in code and is a key asset when working on a codebase with several developers. Think of it like the version history feature in Google Docs. You can see what the file looked like at different timestamps, see who made what changes, and even revert to old versions and restore changes.
+
+GitHub, on the other hand, is a service that hosts git repositories. There are other repository-hosting services like GitLab and Bitbucket, but GitHub is the most popular and is what we'll use.
+
+Check out this post to learn more about the differences: https://blog.hubspot.com/website/git-vs-github.
+
+TDLR - Git is the software that actually tracks code changes within a repository, and GitHub hosts these repositories via a web interface.
+
+## Accessing the repository
+What is a repository? GitHub docs define it as:
+> A repository contains all of your project's files and each file's revision history. You can discuss and manage your project's work within the repository.
+
+Well, the first step in this tutorial was to access the repository on GitHub. If you're reading this now, chances are you're here! If not, go to https://github.com/NEURoboticsClub/Intro-Course-GitHub-practice.
+
+
+
