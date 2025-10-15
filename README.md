@@ -60,7 +60,7 @@ Git associates a remote URL with a name, and your default remote is usually call
 
 
 ### Cloning *this* repo
-In your command line type `ssh https://github.com/NEURoboticsClub/Intro-Course-Github-Practice-Fall-2025.git'
+In your command line type `ssh https://github.com/NEURoboticsClub/Intro-Course-Github-Practice-Fall-2025.git`
 You can find the link by clicking the green `code` button and then copying the HTTPS URL.
 ![Cloning a repo from GitHub](img/git_clone_url.png)
 
@@ -76,4 +76,4 @@ Creating a new branch isn't 1000% necessary - it depends on how your team uses G
 
 In your command line type `git branch your-name`.
 
-Then to switch to the branch you just created, type `git checkout your-name'.
+Then to switch to the branch you just created, type `git checkout your-name`.
