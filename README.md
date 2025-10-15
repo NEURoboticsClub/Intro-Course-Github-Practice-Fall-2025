@@ -106,8 +106,10 @@ Then directly edit the file. To exit, follow the instructions on the bottom of t
 Nice! We've made some changes in the repo and now we should add and commit these changes. Whenever we make a commit, we are taking a snapshot of what the repository looks like at this point in time. This way, we can revert to old commits if necessary or even just view what changes happened when.
 
 But first we need to add the changed files.
-To do this type `git add.`
+To do this type `git add .`
 
 Then type `git commit -m "a description of what you are changing to the repo"`
 
-For this activity, your message can be "created your-name.txt"
+For this activity, your message can be "edited your-name.txt"
+
+![Adding and commiting a file](img/git_add_commit.png)
