@@ -33,12 +33,16 @@ Well, the first step in this tutorial was to access the repository on GitHub. If
 ## Opening the Command Line
 ### On a Windows
 >Click: the Start button or press the Windows key on your keyboard.
+
 >Type: cmd or Command Prompt into the search bar.
+
 >Select: "Command Prompt" from the search results to open it.
 
 ### On a Mac
 >Open Spotlight: Press the Command (⌘) key + Spacebar. 
+
 >Type "Terminal": In the search bar that appears, type Terminal. 
+
 >Launch Terminal: Press Enter or double-click on the Terminal application from the search results.
 
 ## Cloning a Remote Repository
@@ -57,8 +61,19 @@ Git associates a remote URL with a name, and your default remote is usually call
 
 ### Cloning *this* repo
 In your command line type `ssh https://github.com/NEURoboticsClub/Intro-Course-Github-Practice-Fall-2025.git'
-![Cloning a repo in terminal](img/git_clone.png)
 You can find the link by clicking the green `code` button and then copying the HTTPS URL.
 ![Cloning a repo from GitHub](img/git_clone_url.png)
 
+Cool! Now we have a local version of the repository that we can make changes to. It should look like this now.
+![Cloning a repo in terminal](img/git_clone.png)
 
+## Creating a new branch
+Before we actually start making changes, we're going to create a new branch. Branches allow us developers to work in a contained area and not affect the main branch directly. 
+
+Why is this important? Well, say you're responsible for developing an algorithm for using the ultrasonic/servo sensors on the elegoo kit and your team is using GitHub to host the code. The main branch is where all the action happens and should be code that is tested and validated to work. As you're working on your algorithm, you might introduce bugs or break existing code. By working on a separate branch, you can safely develop your feature and then merge that branch back into main when complete.
+
+Creating a new branch isn't 1000% necessary - it depends on how your team uses GitHub. The nice thing about working with a VCS like git is that it's easy to revert changes should something go wrong. Regardless, we're going to be creating a branch to do our work.
+
+In your command line type `git branch your-name`.
+
+Then to switch to the branch you just created, type `git checkout your-name'.
