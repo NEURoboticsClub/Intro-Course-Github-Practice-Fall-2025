@@ -113,3 +113,34 @@ Then type `git commit -m "a description of what you are changing to the repo"`
 For this activity, your message can be "edited your-name.txt"
 
 ![Adding and commiting a file](img/git_add_commit.png)
+
+## Pushing changes
+Now that we've created a commit with the desired changes, we can push to origin. Why do we need to do this? Well, we've already told GitHub that we created a branch but it doesn't do any automatic checking if the branch had changed on our local machine - that's why we need to push the changes. 
+
+Type `git push`
+
+Hmmm did this do anything? Let's see! Go back to the repo in GitHub and refresh your page. Hmmm main looks unchanged... but wait! That's expected! We've made changes on our own branch. Hit the dropdown where it says "main" and find your branch.
+
+![View branch on GitHub](img/view-branch.png)
+
+Aha! Our changes are here. 
+
+## Opening a pull request
+Now that we have our updated branch in the GitHub repo, let's create a PR so we can see the changes in main! Hit the "Compare & Pull Request" button to get it started.
+
+![Preview PR](img/push-changes.png)
+
+It should open up a page that looks something like this. It'll show what's been changed on our branch between when we created the branch and now.
+
+If all looks good, hit "Create Pull Request".
+
+![Create PR in GitHub Desktop](img/pull-request.png)
+
+We're almost there now! We now have a pull request that will preview the changes before we actually merge it into the main branch. 
+
+Click the `merge request` button
+
+## Aftermath
+The moment of truth. Is our code finally on the main branch? Switch from the "Pull requests" tab to the "Code" tab. Awesome! You'll see that the PR was merged and that the newly created file is now on the main branch. Nice work!
+
+![Update main](img/updated_main.png) 
