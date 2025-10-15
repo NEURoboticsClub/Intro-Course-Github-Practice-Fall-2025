@@ -61,6 +61,7 @@ Git associates a remote URL with a name, and your default remote is usually call
 
 ### Cloning *this* repo
 In your command line type `ssh https://github.com/NEURoboticsClub/Intro-Course-Github-Practice-Fall-2025.git`
+
 You can find the link by clicking the green `code` button and then copying the HTTPS URL.
 ![Cloning a repo from GitHub](img/git_clone_url.png)
 
@@ -77,3 +78,38 @@ Creating a new branch isn't 1000% necessary - it depends on how your team uses G
 In your command line type `git branch your-name`.
 
 Then to switch to the branch you just created, type `git checkout your-name`.
+
+It should look like this:
+![Switching branch](img/branch-checkout.png)
+
+Then to `push` the branch to the remote repo, type `git push -u origin your-branch-name`
+
+
+## Making local changes
+Okay recap - we've cloned the repository from GitHub, created a branch for us to do some development in, published the branch to GitHub so it knows it exists, and now we're ready to make our changes.
+
+For this activity, we'll be duplicating the template file, renaming it, and populating it with information.
+
+To do this type `cp template.txt your-name.txt`
+
+![Duplicating a file](img/duplicate_file.png)
+
+To fill out the .txt file you can open it in a text editor or you can edit it directly through the command line.
+
+Type `nano your-name.txt`.
+
+Then directly edit the file. To exit, follow the instructions on the bottom of the terminal.
+
+![Editing a file](img/edit-template.png)
+
+## Staging and committing
+Nice! We've made some changes in the repo and now we should add and commit these changes. Whenever we make a commit, we are taking a snapshot of what the repository looks like at this point in time. This way, we can revert to old commits if necessary or even just view what changes happened when.
+
+But first we need to add the changed files.
+To do this type `git add .`
+
+Then type `git commit -m "a description of what you are changing to the repo"`
+
+For this activity, your message can be "edited your-name.txt"
+
+![Adding and commiting a file](img/git_add_commit.png)
