@@ -50,6 +50,7 @@ Well, the first step in this tutorial was to access the repository on GitHub. If
 A remote URL is Git's fancy way of saying "the place where your code is stored." That URL could be your repository on GitHub, or another user's fork, or even on a completely different server.
 
 You can only push to two types of URL addresses:
+
 For an HTTPS URL:
 `https://github.com/user/repo.git`
 
@@ -60,7 +61,7 @@ Git associates a remote URL with a name, and your default remote is usually call
 
 
 ### Cloning *this* repo
-In your command line type `ssh https://github.com/NEURoboticsClub/Intro-Course-Github-Practice-Fall-2025.git`
+In your command line type `git clone https://github.com/NEURoboticsClub/Intro-Course-Github-Practice-Fall-2025.git`
 
 You can find the link by clicking the green `code` button and then copying the HTTPS URL.
 ![Cloning a repo from GitHub](img/git_clone_url.png)
